@@ -1,10 +1,10 @@
-import Home from './Home';
-import About from './About';
-import Data from './Data';
-import Report from './Report';
-import Safety from './Safety';
+import Home from './pages/home/Home';
+import About from './pages/about/About';
+import Data from './pages/data/Data';
+import Report from './pages/report/Report';
+import Safety from './pages/safety/Safety';
 import { Route, Routes } from 'react-router-dom';
-import NavBar from './NavBar';
+import NavBar from './components/navbar/NavBar';
 
 function App() {
   return (

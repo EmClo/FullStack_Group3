@@ -1,0 +1,31 @@
+
+/* unvisited links styling */
+a:link{
+    color: #330000;
+}
+
+
+/* links on hover */
+a:hover{
+    color: #330000;
+}
+
+
+/* visited links styling */
+a:visited{
+    color: #330000;
+}
+
+/* ----------------------
+  navigation bar styling 
+---------------------- */
+
+
+/* -----------------------
+  location search styling
+------------------------ */
+
+/* color of links */
+#locationSearch a{
+    text-decoration: underline;
+}
