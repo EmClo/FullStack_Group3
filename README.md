@@ -1,7 +1,7 @@
-npm install axios
-npm install google-map-react
-npm install react-router-dom
-npm install react-places-autocomplete
+# npm install axios
+# npm install google-map-react
+# npm install react-router-dom
+# npm install react-places-autocomplete
 
 # Getting Started with Create React App
 
