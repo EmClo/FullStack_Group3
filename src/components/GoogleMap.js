@@ -1,9 +1,15 @@
-import React, { Component, useState } from "react";
+import React, { useEffect, useState } from "react";
 import { Map, Marker, GoogleApiWrapper } from "google-maps-react";
 import GooglePlaces from "./GooglePlaces";
 import { geocodeByAddress, getLatLng } from "react-places-autocomplete";
+import { API } from "../utils/APIS";
 
 export function MapContainer(props) {
+  useEffect(() => {
+    API.get(latLng.lat, latLng.lng, 2022).then((response) => {
+      console.log(response);
+    });
+  });
   const [address, setAddress] = useState("");
   const [latLng, setLatLng] = useState({});
   const updateAddress = (data) => {
@@ -34,7 +40,9 @@ export function MapContainer(props) {
         }}
         center={latLng}
         zoom={16}
-      ></Map>
+      >
+        {/* write mapping function for response from get request to render markers */}
+      </Map>
     </div>
   );
 }
