@@ -1,14 +1,8 @@
 import React, { useState, useEffect } from "react";
 import GoogleMap from "../../components/GoogleMap";
-import { API } from "../../utils/APIS";
 import styles from "./home.module.css";
 
 function Home() {
-  useEffect(() => {
-    API.get().then((response) => {
-      console.log(response);
-    });
-  });
   return (
     <div>
       <h1>Welcome</h1>
