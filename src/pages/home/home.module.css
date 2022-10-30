@@ -6,6 +6,13 @@ h1 {
   font-family: 'Optima', sans-serif;
 }
 
+h2 {
+  color: #FFB7B1;
+  font-size:x-large;
+  align-items: center;
+  text-align: center;
+  font-family: 'Optima', sans-serif;
+}
 
 /* unvisited links styling */
 a:link{
