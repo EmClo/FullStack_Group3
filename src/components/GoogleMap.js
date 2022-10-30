@@ -28,7 +28,7 @@ export function MapContainer(props) {
   return (
     <div class='mapbackground'>
       <div>
-        <img class='homeimage' src= {logo} alt="Be Aware Everywhere logo" width={800} height={500}/>
+        <img class='homeimage' src= {logo} alt="Be Aware Everywhere logo"/>
       </div>
     <div class='placessearchbar'>
       <h2>Please enter your location to view the crime in your area below</h2>
