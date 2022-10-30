@@ -25,12 +25,15 @@ export function MapContainer(props) {
       .catch((error) => console.error("Error", error));
   };
   return (
-    <div>
+    <div class='mapbackground'>
+    <div class='placessearchbar'>
       <GooglePlaces
         address={address}
         onChange={updateAddress}
         onSelect={handleSelect}
       />
+      </div >
+      <div class='crimemap'>
       <Map
         google={props.google}
         style={{ width: "50vw", height: "50vh" }}
@@ -43,6 +46,7 @@ export function MapContainer(props) {
       >
         {/* write mapping function for response from get request to render markers */}
       </Map>
+      </div>
     </div>
   );
 }

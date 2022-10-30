@@ -1,8 +1,14 @@
 import React from "react";
+import ReportCrime from "../../components/reportcrime";
 
 
 function Report() {
-    return <h1>Report A Crime</h1>
-}
+    return (
+      <div>
+        <h1>Contact Us</h1>
+        <ReportCrime />
+      </div>
+    );
+  }
 
 export default Report;
