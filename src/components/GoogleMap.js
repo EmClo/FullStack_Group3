@@ -3,6 +3,7 @@ import { Map, Marker, GoogleApiWrapper } from "google-maps-react";
 import GooglePlaces from "./GooglePlaces";
 import { geocodeByAddress, getLatLng } from "react-places-autocomplete";
 import { API } from "../utils/APIS";
+import logo from "./navbar/images/logo.png";
 
 export function MapContainer(props) {
   useEffect(() => {
@@ -26,7 +27,11 @@ export function MapContainer(props) {
   };
   return (
     <div class='mapbackground'>
+      <div>
+        <img class='homeimage' src= {logo} alt="Be Aware Everywhere logo" width={800} height={500}/>
+      </div>
     <div class='placessearchbar'>
+      <h2>Please enter your location to view the crime in your area below</h2>
       <GooglePlaces
         address={address}
         onChange={updateAddress}

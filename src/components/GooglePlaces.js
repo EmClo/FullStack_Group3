@@ -8,8 +8,8 @@ function GooglePlaces({ address, onSelect, onChange }) {
           <input class='inputtextarea'
             {...getInputProps({
               placeholder: "Search Places ...",
-              className: "location-search-input",
-            })}
+              className: "inputtextarea",
+            })} 
           />
           <div className="autocomplete-dropdown-container">
             {loading && <div>Loading...</div>}
