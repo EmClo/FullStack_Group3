@@ -1,155 +1,209 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 .nav {
-    background-color: #FFF6F5;
-    color: #510300;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 2rem;
-    box-shadow: 1px 0px 20px 1px #DA706C;
+  background-color: #fff6f5;
+  color: #510300;
+  display: flex;
+  padding: 1rem;
+  align-items: center;
+  height: 8vh;
+  box-shadow: 1px 0px 20px 1px #da706c;
+}
+.nav .leftSide {
+  flex: 50%;
 }
 
-.nav li {
-    color: #510300;
-    font-size:x-large;
-    align-items: center;
-    font-family: 'Optima', sans-serif;
+.nav .leftSide img {
+  height: 8vh;
 }
 
-.nav ul {
-    padding: 0;
-    margin: 2rem;
-    list-style: none;
-    display: flex;
-    align-self: flex-end;
-    gap: 1rem;
+.nav .rightSide {
+  flex: 50%;
+  display: flex;
+  justify-content: right;
+}
+
+.nav .rightSide ul {
+  padding: 0;
+  font-size: x-large;
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  color: #510300;
+  font-family: "Optima", sans-serif;
+}
+
+.nav .rightSide button {
+  display: none;
+  margin-left: 20px;
+}
+.nav .rightSide #hidden {
+  display: flex;
 }
 
 .nav li.active {
-    background-color: #FFB7B1;
+  background-color: #ffb7b1;
 }
 
 .nav li:hover {
-    background-color: #FFB7B1;
+  background-color: #ffb7b1;
 }
 
 .mapbackground {
-    background-color: #DA706C;
-    border-radius: 70px;
-    height: 70vh;
-    width: 70%;
-    margin: auto;
-    align-self: center;
-    align-content: center;
-    padding-inline-start: 10%;
-    padding-top: 5%;
-    padding-right: 5%;
-    box-shadow: 10px 20px 30px #510300;
-    
-    
+  background-color: #da706c;
+  border-radius: 70px;
+  height: 70vh;
+  width: 70%;
+  margin: auto;
+  align-self: center;
+  align-content: center;
+  padding-inline-start: 10%;
+  padding-top: 5%;
+  padding-right: 5%;
+  box-shadow: 10px 20px 30px #510300;
 }
 
 .inputboxes {
-    background-color: #FFB7B1;
-    border-radius: 15px;
-    box-shadow: 10px 20px 30px #510300;
-    height: 40vh;
-    width: 30%;
-    text-align: center;
-    padding: 5%;
-
+  background-color: #ffb7b1;
+  border-radius: 15px;
+  box-shadow: 10px 20px 30px #510300;
+  height: 40vh;
+  width: 30%;
+  text-align: center;
+  padding: 5%;
 }
 
 .inputboxesmessage {
-    background-color: #FFB7B1;
-    border-radius: 15px;
-    display:flex;
-    box-shadow: 10px 20px 30px #510300;
-    height: 25vh;
-    width: 40vh;
-    text-align: center;
-    align-items: center;
-    padding: 3%;
-    margin: -21em 0 1rem 8rem;
-    margin-left: 58%;   
+  background-color: #ffb7b1;
+  border-radius: 15px;
+  display: flex;
+  box-shadow: 10px 20px 30px #510300;
+  height: 25vh;
+  width: 40vh;
+  text-align: center;
+  align-items: center;
+  padding: 3%;
+  margin: -21em 0 1rem 8rem;
+  margin-left: 58%;
 }
 
 .inputtextarea {
-    display: block;
-    font-family:'Optima', sans-serif;
-    background-color: #FFF6F5;
-    height: 100%;
-    width: 100%;
-    padding: .5rem .8rem 1.5rem .9rem;
-    margin: .9vw 0 ;
-    border:0;
-    border-radius: 7px;
-    box-shadow: 2px 5px  #994A47;
-    font-size: 20px;
+  display: block;
+  font-family: "Optima", sans-serif;
+  background-color: #fff6f5;
+  height: 100%;
+  width: 100%;
+  padding: 0.5rem 0.8rem 1.5rem 0.9rem;
+  margin: 0.9vw 0;
+  border: 0;
+  border-radius: 7px;
+  box-shadow: 2px 5px #994a47;
+  font-size: 20px;
 }
 
-
 .clickbutton {
-    color: #FFF6F5;
-    background-color: #994A47;
-    border-color: #994A47;
-    font-family: 'Optima', sans-serif;
-    font-weight: bolder;
-    font-size: larger;
-    border-radius: 5px;
-    box-shadow: 2px 5px  #510300;
-    text-align: center;
-    padding: 10px;
-    margin-left: 70%;
-    margin-top: 5%;
+  color: #fff6f5;
+  background-color: #994a47;
+  border-color: #994a47;
+  font-family: "Optima", sans-serif;
+  font-weight: bolder;
+  font-size: larger;
+  border-radius: 5px;
+  box-shadow: 2px 5px #510300;
+  text-align: center;
+  padding: 10px;
+  margin-left: 70%;
+  margin-top: 5%;
 }
 
 .clickbutton:hover {
-    transform: translateY(5px);
+  transform: translateY(5px);
 }
 
-.placessearchbar {    
-    color: #510300;
-    background-color: #994A47;
-    border-color: #994A47;
-    font-family: 'Optima', sans-serif;
-    font-weight: bolder;
-    font-size: larger;
-    height: 15vh;
-    border-radius: 20px;
-    box-shadow: 2px 5px  #510300;
-    text-align: center;
-    align-self: center;
-    padding: 15px;
-    margin-top: 0.5%;
-
+.placessearchbar {
+  color: #510300;
+  background-color: #994a47;
+  border-color: #994a47;
+  font-family: "Optima", sans-serif;
+  font-weight: bolder;
+  font-size: larger;
+  height: 15vh;
+  border-radius: 20px;
+  box-shadow: 2px 5px #510300;
+  text-align: center;
+  align-self: center;
+  padding: 15px;
+  margin-top: 0.5%;
 }
 
 .crimemap {
-    background-color: #FFB7B1;
-    border-radius: 70px;
-    height: 60vh;
-    width: 105%;
-    margin: 10em 0 1rem -3rem;
-    display: block;
-    position: relative;
-    align-self: center;
-    padding-inline-start: 7%;
-    padding-top: 5%;
-    padding-right: 5%;
-    box-shadow: 10px 20px 30px #510300;
+  background-color: #ffb7b1;
+  border-radius: 70px;
+  height: 60vh;
+  width: 105%;
+  margin: 10em 0 1rem -3rem;
+  display: block;
+  position: relative;
+  align-self: center;
+  padding-inline-start: 7%;
+  padding-top: 5%;
+  padding-right: 5%;
+  box-shadow: 10px 20px 30px #510300;
 }
 
 .homeimage {
-    background-color: #FFF6F5;
-    border-radius: 800px;
-    max-width: 100%;
-    background-size: cover;
-    align-self: center;
-    align-content: center;
-    margin: -4em 0 1.5rem 5.5rem;
-    box-shadow: 15px 30px 30px #994A47;
+  background-color: #fff6f5;
+  border-radius: 800px;
+  max-width: 100%;
+  background-size: cover;
+  align-self: center;
+  align-content: center;
+  margin: -4em 0 1.5rem 5.5rem;
+  box-shadow: 15px 30px 30px #994a47;
+}
+
+@media only screen and (max-width: 950px) {
+  .nav .rightSide ul {
+    font-size: large;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .nav .rightSide ul {
+    font-size: medium;
+  }
+}
+@media only screen and (max-width: 670px) {
+  .nav .rightSide ul {
+    font-size: small;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .nav .rightSide button {
+    display: flex;
+  }
+
+  .nav .rightSide ul {
+    display: none;
+  }
+  .nav {
+    box-shadow: 0px 0px 0px 0px #da706c;
+  }
+  .nav .rightSide #hidden {
+    position: absolute;
+    left: 0;
+    top: 6vh;
+    height: auto;
+    width: 100%;
+    background-color: #fff6f5;
+    color: #510300;
+    box-shadow: 1px 0px 12px 1px #da706c;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }
