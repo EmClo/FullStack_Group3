@@ -1,46 +1,43 @@
 h1 {
-  color: #994A47;
-  font-size:xx-large;
+  color: #994a47;
+  font-size: xx-large;
   align-items: center;
   text-align: center;
-  font-family: 'Optima', sans-serif;
+  font-family: "Optima", sans-serif;
 }
 
 h2 {
-  color: #FFB7B1;
-  font-size:x-large;
+  color: #ffb7b1;
+  font-size: x-large;
   align-items: center;
   text-align: center;
-  font-family: 'Optima', sans-serif;
+  font-family: "Optima", sans-serif;
 }
 
 /* unvisited links styling */
-a:link{
-    color: #330000;
+a:link {
+  color: #330000;
 }
-
 
 /* links on hover */
-a:hover{
-    color: #330000;
+a:hover {
+  color: #330000;
 }
 
-
 /* visited links styling */
-a:visited{
-    color: #330000;
+a:visited {
+  color: #330000;
 }
 
 /* ----------------------
   navigation bar styling 
 ---------------------- */
 
-
 /* -----------------------
   location search styling
 ------------------------ */
 
 /* color of links */
-#locationSearch a{
-    text-decoration: underline;
+#locationSearch a {
+  text-decoration: underline;
 }
