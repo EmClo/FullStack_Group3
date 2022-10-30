@@ -5,7 +5,7 @@ function GooglePlaces({ address, onSelect, onChange }) {
     <PlacesAutocomplete value={address} onChange={onChange} onSelect={onSelect}>
       {({ getInputProps, suggestions, getSuggestionItemProps, loading }) => (
         <div>
-          <input
+          <input class='inputtextarea'
             {...getInputProps({
               placeholder: "Search Places ...",
               className: "location-search-input",

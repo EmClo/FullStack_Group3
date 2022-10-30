@@ -1,0 +1,140 @@
+* {
+    box-sizing: border-box;
+}
+
+.nav {
+    background-color: #FFF6F5;
+    color: #510300;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+    box-shadow: 1px 0px 20px 1px #DA706C;
+}
+
+.nav li {
+    color: #510300;
+    font-size:x-large;
+    align-items: center;
+    font-family: 'Optima', sans-serif;
+}
+
+.nav ul {
+    padding: 0;
+    margin: 2rem;
+    list-style: none;
+    display: flex;
+    align-self: flex-end;
+    gap: 1rem;
+}
+
+.nav li.active {
+    background-color: #FFB7B1;
+}
+
+.nav li:hover {
+    background-color: #FFB7B1;
+}
+
+.mapbackground {
+    background-color: #DA706C;
+    border-radius: 70px;
+    height: 70vh;
+    width: 70%;
+    margin: auto;
+    align-self: center;
+    padding-inline-start: 10%;
+    padding-top: 5%;
+    padding-right: 5%;
+    box-shadow: 10px 20px 30px #510300;
+    
+    
+}
+
+.inputboxes {
+    background-color: #FFB7B1;
+    border-radius: 15px;
+    box-shadow: 10px 20px 30px #510300;
+    height: 40vh;
+    width: 30%;
+    text-align: center;
+    padding: 5%;
+
+}
+
+.inputboxesmessage {
+    background-color: #FFB7B1;
+    border-radius: 15px;
+    display:flex;
+    box-shadow: 10px 20px 30px #510300;
+    height: 25vh;
+    width: 30%;
+    text-align: center;
+    padding: 2%;
+    margin: -21em 0 1rem 8rem;
+    margin-left: 58%;   
+}
+
+.inputtextarea {
+    display: block;
+    font-family:'Optima', sans-serif;
+    background-color: #FFF6F5;
+    height: 100%;
+    width: 100%;
+    padding: .5rem .8rem 1.5rem .9rem;
+    margin: .9vw 0 ;
+    border:0;
+    border-radius: 7px;
+    box-shadow: 2px 5px  #994A47;
+    font-size: 20px;
+}
+
+
+.clickbutton {
+    color: #FFF6F5;
+    background-color: #994A47;
+    border-color: #994A47;
+    font-family: 'Optima', sans-serif;
+    font-weight: bolder;
+    font-size: larger;
+    border-radius: 5px;
+    box-shadow: 2px 5px  #510300;
+    text-align: center;
+    padding: 10px;
+    margin-left: 70%;
+    margin-top: 5%;
+}
+
+.clickbutton:hover {
+    transform: translateY(5px);
+}
+
+.placessearchbar {    
+    color: #510300;
+    background-color: #994A47;
+    border-color: #994A47;
+    font-family: 'Optima', sans-serif;
+    font-weight: bolder;
+    font-size: larger;
+    border-radius: 10px;
+    box-shadow: 2px 5px  #510300;
+    text-align: center;
+    padding: 10px;
+    margin-top: 5%;
+
+}
+
+.crimemap {
+    background-color: #FFB7B1;
+    border-radius: 70px;
+    height: 60vh;
+    width: 105%;
+    margin: -3em 0 1rem -3rem;
+    display: block;
+    position: relative;
+    align-self: center;
+    padding-inline-start: 7%;
+    padding-top: 5%;
+    padding-right: 5%;
+    box-shadow: 10px 20px 30px #510300;
+}
