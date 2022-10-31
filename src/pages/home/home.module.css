@@ -1,43 +1,7 @@
-h1 {
-  color: #994a47;
-  font-size: xx-large;
-  align-items: center;
-  text-align: center;
-  font-family: "Optima", sans-serif;
-}
-
 h2 {
   color: #ffb7b1;
   font-size: x-large;
   align-items: center;
   text-align: center;
   font-family: "Optima", sans-serif;
-}
-
-/* unvisited links styling */
-a:link {
-  color: #330000;
-}
-
-/* links on hover */
-a:hover {
-  color: #330000;
-}
-
-/* visited links styling */
-a:visited {
-  color: #330000;
-}
-
-/* ----------------------
-  navigation bar styling 
----------------------- */
-
-/* -----------------------
-  location search styling
------------------------- */
-
-/* color of links */
-#locationSearch a {
-  text-decoration: underline;
 }

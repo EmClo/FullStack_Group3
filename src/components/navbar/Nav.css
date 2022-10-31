@@ -10,6 +10,8 @@
   align-items: center;
   height: 8vh;
   box-shadow: 1px 0px 20px 1px #da706c;
+  position: fixed;
+  width: 100%;
 }
 .nav .leftSide {
   flex: 50%;
@@ -52,117 +54,19 @@
   background-color: #ffb7b1;
 }
 
-.mapbackground {
-  background-color: #da706c;
-  border-radius: 70px;
-  height: 70vh;
-  width: 70%;
-  margin: auto;
-  align-self: center;
-  align-content: center;
-  padding-inline-start: 10%;
-  padding-top: 5%;
-  padding-right: 5%;
-  box-shadow: 10px 20px 30px #510300;
+/* unvisited links styling */
+a:link {
+  color: #330000;
 }
 
-.inputboxes {
-  background-color: #ffb7b1;
-  border-radius: 15px;
-  box-shadow: 10px 20px 30px #510300;
-  height: 40vh;
-  width: 30%;
-  text-align: center;
-  padding: 5%;
+/* links on hover */
+a:hover {
+  color: #330000;
 }
 
-.inputboxesmessage {
-  background-color: #ffb7b1;
-  border-radius: 15px;
-  display: flex;
-  box-shadow: 10px 20px 30px #510300;
-  height: 25vh;
-  width: 40vh;
-  text-align: center;
-  align-items: center;
-  padding: 3%;
-  margin: -21em 0 1rem 8rem;
-  margin-left: 58%;
-}
-
-.inputtextarea {
-  display: block;
-  font-family: "Optima", sans-serif;
-  background-color: #fff6f5;
-  height: 100%;
-  width: 100%;
-  padding: 0.5rem 0.8rem 1.5rem 0.9rem;
-  margin: 0.9vw 0;
-  border: 0;
-  border-radius: 7px;
-  box-shadow: 2px 5px #994a47;
-  font-size: 20px;
-}
-
-.clickbutton {
-  color: #fff6f5;
-  background-color: #994a47;
-  border-color: #994a47;
-  font-family: "Optima", sans-serif;
-  font-weight: bolder;
-  font-size: larger;
-  border-radius: 5px;
-  box-shadow: 2px 5px #510300;
-  text-align: center;
-  padding: 10px;
-  margin-left: 70%;
-  margin-top: 5%;
-}
-
-.clickbutton:hover {
-  transform: translateY(5px);
-}
-
-.placessearchbar {
-  color: #510300;
-  background-color: #994a47;
-  border-color: #994a47;
-  font-family: "Optima", sans-serif;
-  font-weight: bolder;
-  font-size: larger;
-  height: 15vh;
-  border-radius: 20px;
-  box-shadow: 2px 5px #510300;
-  text-align: center;
-  align-self: center;
-  padding: 15px;
-  margin-top: 0.5%;
-}
-
-.crimemap {
-  background-color: #ffb7b1;
-  border-radius: 70px;
-  height: 60vh;
-  width: 105%;
-  margin: 10em 0 1rem -3rem;
-  display: block;
-  position: relative;
-  align-self: center;
-  padding-inline-start: 7%;
-  padding-top: 5%;
-  padding-right: 5%;
-  box-shadow: 10px 20px 30px #510300;
-}
-
-.homeimage {
-  background-color: #fff6f5;
-  border-radius: 800px;
-  max-width: 100%;
-  background-size: cover;
-  align-self: center;
-  align-content: center;
-  margin: -4em 0 1.5rem 5.5rem;
-  box-shadow: 15px 30px 30px #994a47;
+/* visited links styling */
+a:visited {
+  color: #330000;
 }
 
 @media only screen and (max-width: 950px) {
@@ -190,13 +94,17 @@
   .nav .rightSide ul {
     display: none;
   }
+
+  .nav .leftSide img {
+    height: 5vh;
+  }
   .nav {
-    box-shadow: 0px 0px 0px 0px #da706c;
+    height: 5vh;
   }
   .nav .rightSide #hidden {
     position: absolute;
     left: 0;
-    top: 6vh;
+    top: 3vh;
     height: auto;
     width: 100%;
     background-color: #fff6f5;
@@ -205,5 +113,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 1rem;
   }
 }

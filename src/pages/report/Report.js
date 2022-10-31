@@ -42,60 +42,66 @@ const ReportCrime = () => {
   };
 
   return (
-    <div class="mapbackground">
-      <h1>
-        {" "}
-        Please let us know if there is anything you would like to report about
-        crime in your area or any other queries
-      </h1>
-      <form onSubmit={sendMail}>
-        <ul class="inputboxes">
-          <li>
-            <input
-              className="inputtextarea"
-              type="text"
-              name="user_name"
-              value={user_name}
-              onChange={handleName}
-              placeholder="First Name"
-            />
-          </li>
-          <li>
-            <input
-              className="inputtextarea"
-              type="text"
-              name="user_last_name"
-              value={user_last_name}
-              onChange={handleLastName}
-              placeholder="Last Name"
-            />
-          </li>
-          <li>
-            <input
-              className="inputtextarea"
-              type="email"
-              name="user_email"
-              value={user_email}
-              onChange={handleEmail}
-              placeholder="Your Email"
-            />
-          </li>
-        </ul>
-        <div class="inputboxesmessage">
-          <textarea
-            className="inputtextarea"
-            name="user_message"
-            value={user_message}
-            onChange={handleMessage}
-            placeholder="Your Message..."
-          />
-        </div>
-        <div>
-          <button class="clickbutton" type="submit">
-            Send Message
-          </button>
-        </div>
-      </form>
+    <div className="page">
+      <div className="background">
+        <h1>
+          {" "}
+          Please let us know if there is anything you would like to report,
+          about non-emergency crimes in your area or any other queries
+        </h1>
+
+        <form onSubmit={sendMail}>
+          <div className="reportForm">
+            <ul className="inputboxes">
+              <li>
+                <input
+                  className="inputtextarea"
+                  type="text"
+                  name="user_name"
+                  value={user_name}
+                  onChange={handleName}
+                  placeholder="First Name"
+                />
+              </li>
+              <li>
+                <input
+                  className="inputtextarea"
+                  type="text"
+                  name="user_last_name"
+                  value={user_last_name}
+                  onChange={handleLastName}
+                  placeholder="Last Name"
+                />
+              </li>
+              <li>
+                <input
+                  className="inputtextarea"
+                  type="email"
+                  name="user_email"
+                  value={user_email}
+                  onChange={handleEmail}
+                  placeholder="Your Email"
+                />
+              </li>
+            </ul>
+
+            <div class="inputboxesmessage">
+              <textarea
+                className="inputtextarea"
+                name="user_message"
+                value={user_message}
+                onChange={handleMessage}
+                placeholder="Your Message..."
+              />
+            </div>
+          </div>
+          <div className="pagebutton">
+            <button class="messagebutton" type="submit">
+              Send Message
+            </button>
+          </div>
+        </form>
+      </div>
     </div>
   );
 };
