@@ -1,6 +1,183 @@
 body {
-    margin: 0;
-    overflow-x: hidden;
-    
+  margin: 0;
+  overflow-x: hidden;
 }
 
+h1 {
+  color: #510300;
+  font-size: xx-large;
+  align-items: center;
+  text-align: center;
+  font-family: "Optima", sans-serif;
+}
+
+.background h2 {
+  color: #ffb7b1;
+  font-size: x-large;
+  align-items: center;
+  text-align: center;
+  font-family: "Optima", sans-serif;
+}
+
+p {
+  color: #ffb7b1;
+  font-size: x-large;
+  align-items: center;
+  text-align: center;
+  font-family: "Optima", sans-serif;
+}
+
+.page {
+  margin: auto;
+  padding: 6%;
+  height: 70vh;
+  width: 80vw;
+}
+
+.background {
+  background-color: #da706c;
+  border-radius: 70px;
+  padding-inline-start: 10%;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  padding-right: 5%;
+  box-shadow: 10px 20px 30px #510300;
+  margin-bottom: 20%;
+}
+
+.reportForm {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.inputboxes {
+  background-color: #ffb7b1;
+  border-radius: 15px;
+  box-shadow: 10px 20px 30px #510300;
+  list-style: none;
+  padding: 5%;
+  width: 50%;
+  margin-top: 4%;
+}
+
+.inputboxesmessage {
+  background-color: #ffb7b1;
+  border-radius: 15px;
+  display: flex;
+  box-shadow: 10px 20px 30px #510300;
+  height: 20%;
+  width: 35%;
+  margin-top: 4%;
+  margin-right: 5%;
+  padding: 2% 4%;
+}
+
+.inputtextarea {
+  display: block;
+  font-family: "Optima", sans-serif;
+  background-color: #fff6f5;
+  height: 100%;
+  width: 100%;
+  padding: 0.5rem 0.8rem 1.5rem 0.9rem;
+  margin: 0.9vw 0;
+  border: 0;
+  border-radius: 7px;
+  box-shadow: 2px 5px #994a47;
+  font-size: 20px;
+}
+
+.messagebutton {
+  margin-top: -10%;
+  margin-right: auto;
+  margin-left: 60%;
+}
+
+.pagebutton button {
+  color: #fff6f5;
+  background-color: #994a47;
+  border-color: #994a47;
+  font-family: "Optima", sans-serif;
+  font-weight: bolder;
+  font-size: larger;
+  border-radius: 5px;
+  box-shadow: 2px 5px #510300;
+  text-align: center;
+  padding: 10px;
+}
+
+.pagebutton button:hover {
+  transform: translateY(5px);
+}
+
+.homepage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.mapbackground {
+  background-color: #da706c;
+  border-radius: 50px;
+  height: 100%;
+
+  margin-bottom: 10%;
+  width: 80%;
+  align-self: center;
+  align-content: center;
+  padding-inline-start: 10%;
+  padding: 2%;
+  box-shadow: 10px 20px 30px #510300;
+  position: absolute;
+  z-index: -2;
+}
+
+.placessearchbar {
+  color: #510300;
+  background-color: #994a47;
+  border-color: #994a47;
+  font-family: "Optima", sans-serif;
+  font-weight: bolder;
+  font-size: larger;
+  width: 90%;
+  border-radius: 10px;
+  box-shadow: 2px 5px #510300;
+  text-align: center;
+  align-self: center;
+  margin: 0% 5% 0% 5%;
+  padding: 1% 2%;
+}
+
+.crimemap {
+  background-color: #ffb7b1;
+  border-radius: 30px;
+  height: 70%;
+  width: 100%;
+  padding: 2% 3% 2% 3%;
+  margin-top: 5%;
+  position: relative;
+  align-self: center;
+  box-shadow: 10px 20px 30px #510300;
+}
+
+.logo {
+  margin-top: 10vh;
+  margin-bottom: 3vh;
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+  align-items: center;
+  width: 50%;
+}
+
+.homeimage {
+  background-color: #fff6f5;
+  border-radius: 50%;
+  width: 50%;
+  display: flex;
+  box-shadow: 15px 30px 30px #994a47;
+}
+
+#locationSearch a {
+  text-decoration: underline;
+}
