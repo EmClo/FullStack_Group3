@@ -44,8 +44,7 @@ const ReportCrime = () => {
   return (
     <div className="page">
       <div className="background">
-        <h1>
-          {" "}
+        <h1 className="reporttext">
           Please let us know if there is anything you would like to report,
           about non-emergency crimes in your area or any other queries
         </h1>
