@@ -1,5 +1,6 @@
 import React from "react";
 import walkingalonegood from "../../components/images/walkalonegood.jpg";
+import cctv from "../../components/images/cctv.jpg";
 
 function Safety() {
   return (
@@ -41,10 +42,18 @@ function Safety() {
             vacation, especially if your account is public, as it's a way of
             letting the world know that your home is unoccupied.
           </p>
+          <div className="imagecontainer">
           <div className="container">
-            <img src={walkingalonegood} width="50%" className="image" />
+            <img src={walkingalonegood} className="image" />
             <div className="middle">
               <div className="text">Hello</div>
+            </div>
+          </div>
+          <div className="container">
+            <img src={cctv} className="image" />
+            <div className="middle">
+              <div className="text">Hello</div>
+              </div>
             </div>
           </div>
         </div>
