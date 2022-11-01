@@ -28,7 +28,7 @@ export function MapContainer(props) {
     <div className="homepage">
       <div className="mapbackground">
         <div className="placessearchbar">
-          <h2>
+          <h2 className="search">
             Please enter your location to view the crime in your area below
           </h2>
           <GooglePlaces
