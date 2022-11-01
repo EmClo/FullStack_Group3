@@ -1,5 +1,5 @@
 import { Link, useMatch, useResolvedPath } from "react-router-dom";
-import logo from "../navbar/images/logo.png";
+import logo from "../../components/images/logo.png";
 import { useState } from "react";
 
 function NavBar() {
