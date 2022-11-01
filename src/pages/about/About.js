@@ -15,9 +15,8 @@ function About() {
           <p className="abouttext">
             Be Aware Everywhere gives the public access to specific location
             based crime statistics in an effort to empower users with the
-            necessary information to make safer choices. Salha
+            necessary information to make safer choices.
           </p>
-          
         </div>
         <div class="aboutcontent">
           <h3>Who We Are</h3>
