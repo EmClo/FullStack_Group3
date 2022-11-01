@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import GoogleMap from "../../components/GoogleMap";
 import styles from "./home.module.css";
-import logo from "../../components/navbar/images/logo.png";
+import logo from "../../components/images/logo.png";
 
 function Home() {
   return (
