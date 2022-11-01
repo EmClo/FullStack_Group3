@@ -5,10 +5,16 @@ function GooglePlaces({ address, onSelect, onChange }) {
     <PlacesAutocomplete value={address} onChange={onChange} onSelect={onSelect}>
       {({ getInputProps, suggestions, getSuggestionItemProps, loading }) => (
         <div>
-          <input class='inputtextarea'
+          <input
+            class="inputtextarea"
+            style={{
+              color: "#510300",
+
+              fontFamily: "Optima sans-serif",
+            }}
             {...getInputProps({
-              placeholder: "Search Places ...",
-              className: "location-search-input",
+              placeholder: "Enter Location ...",
+              className: "inputtextarea",
             })}
           />
           <div className="autocomplete-dropdown-container">
