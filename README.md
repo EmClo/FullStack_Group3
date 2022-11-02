@@ -1,6 +1,6 @@
 # npm install axios
 # npm install react-apexcharts
-# npm install google-map-react
+# npm install google-maps-react
 # npm install react-router-dom
 # npm install react-places-autocomplete
 # npm install emailjs-com
