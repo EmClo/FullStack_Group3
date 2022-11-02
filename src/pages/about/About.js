@@ -6,7 +6,7 @@ function About() {
     <div className="page">
       <div className="background">
         <div>
-          <h1 class="tagline">
+          <h1 className="tagline">
             <span>
               Make more informed lifestyle, <br />
               safety and travel decisions.
@@ -18,7 +18,7 @@ function About() {
             necessary information to make safer choices.
           </p>
         </div>
-        <div class="aboutcontent">
+        <div className="aboutcontent">
           <h3>Who We Are</h3>
           <p>
             Four women creating an app for women, as part of our Code First
@@ -29,7 +29,7 @@ function About() {
           </p>
         </div>
         <div>
-          <div class="aboutcontent">
+          <div className="aboutcontent">
             <h3>The Problem</h3>
             <p>
               Research led to the discovery that these kinds of poor perceptions
@@ -41,7 +41,7 @@ function About() {
               decision-making when travelling in unfamiliar areas.
             </p>
           </div>
-          <div class="aboutcontent">
+          <div className="aboutcontent">
             <h3>The Solution</h3>
             <p>
               Our platform includes location based crime statistics, where we

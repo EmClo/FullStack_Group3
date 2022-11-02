@@ -85,7 +85,7 @@ const ReportCrime = () => {
               </li>
             </ul>
 
-            <div class="inputboxesmessage">
+            <div className="inputboxesmessage">
               <textarea
                 className="inputtextarea"
                 name="user_message"
@@ -96,7 +96,7 @@ const ReportCrime = () => {
             </div>
           </div>
           <div className="pagebutton">
-            <button class="messagebutton" type="submit">
+            <button className="messagebutton" type="submit">
               Send Message
             </button>
           </div>
