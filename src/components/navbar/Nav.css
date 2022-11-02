@@ -12,6 +12,7 @@
   box-shadow: 1px 0px 20px 1px #da706c;
   position: fixed;
   width: 100%;
+  z-index: 2;
 }
 .nav .leftSide {
   flex: 50%;
@@ -85,7 +86,7 @@ a:visited {
 }
 @media only screen and (max-width: 670px) {
   .nav .rightSide ul {
-    font-size: small;
+    font-size: x-small;
   }
 }
 
