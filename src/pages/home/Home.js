@@ -1,13 +1,12 @@
 import React, { useState, useEffect } from "react";
 import GoogleMap from "../../components/GoogleMap";
 import styles from "./home.module.css";
-import logo from "../../components/images/logo.png";
 
 function Home() {
   return (
     <div className="homepage">
       <div className="logo">
-        <img className="homeimage" src={logo} alt="Be Aware Everywhere logo" />
+        <img className="homeimage" src="/images/logo.png" alt="Be Aware Everywhere logo" />
       </div>
       <div>
         <GoogleMap />
