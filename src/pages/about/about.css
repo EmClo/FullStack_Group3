@@ -21,6 +21,20 @@ p span {
   font-family: "Optima", serif;
 }
 
+.aboutheadings {
+  opacity: 1;
+  display: block;
+  height: auto;
+  margin-top: 2%;
+  margin-bottom: 3%;
+  transition: 0.5s ease;
+  backface-visibility: hidden;
+}
+
+.individualcontainer:hover .aboutheadings {
+  opacity: 0.15;
+}
+
 .aboutcontent {
   background-color: #ffb7b1;
   border: 10px #994a47;
