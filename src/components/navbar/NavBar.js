@@ -1,5 +1,4 @@
 import { Link, useMatch, useResolvedPath } from "react-router-dom";
-import logo from "../../components/images/logo.png";
 import { useState } from "react";
 
 function NavBar() {
@@ -9,7 +8,7 @@ function NavBar() {
     <nav className="nav">
       <div className="leftSide">
         <a>
-          <img src={logo} alt="Be Aware Everywhere logo" />
+          <img src="/images/logo.png" alt="Be Aware Everywhere logo" />
         </a>
       </div>
       <div className="rightSide">
@@ -41,11 +40,11 @@ function CustomLink({ to, children, ...props }) {
   const isActive = useMatch({ path: resolvedPath.pathname, end: true });
 
   return (
-    <li className={isActive ? "active" : ""}>
+    <div className={isActive ? "active" : ""}>
       <Link to={to} {...props}>
         {children}
       </Link>
-    </li>
+    </div>
   );
 }
 
