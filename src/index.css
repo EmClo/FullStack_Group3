@@ -114,7 +114,6 @@ body {
   background-color: #da706c;
   border-radius: 50px;
   height: 100%;
-
   margin-bottom: 10%;
   width: 80%;
   align-self: center;
@@ -123,7 +122,6 @@ body {
   padding: 2%;
   box-shadow: 10px 20px 30px #510300;
   position: absolute;
-  z-index: -2;
 }
 
 .placessearchbar {
@@ -174,4 +172,6 @@ body {
 
 #locationSearch a {
   text-decoration: underline;
+
 }
+

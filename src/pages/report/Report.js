@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { send } from "emailjs-com";
+
 const ReportCrime = () => {
   const [user_name, set_user_name] = useState("");
   const [user_last_name, set_user_last_name] = useState("");
@@ -84,7 +85,7 @@ const ReportCrime = () => {
               </li>
             </ul>
 
-            <div class="inputboxesmessage">
+            <div className="inputboxesmessage">
               <textarea
                 className="inputtextarea"
                 name="user_message"
@@ -95,7 +96,7 @@ const ReportCrime = () => {
             </div>
           </div>
           <div className="pagebutton">
-            <button class="messagebutton" type="submit">
+            <button className="messagebutton" type="submit">
               Send Message
             </button>
           </div>

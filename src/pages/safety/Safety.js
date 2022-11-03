@@ -1,7 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
+
 import "../safety/safety.css";
 import "../about/about.css";
+
 
 function Safety() {
   return (
@@ -108,6 +110,7 @@ function Safety() {
               </p>
             </div>
             </div>
+
       </div>
     </div>
   );
