@@ -6,11 +6,7 @@ function Home() {
   return (
     <div className="homepage">
       <div className="logo">
-        <img
-          className="homeimage"
-          src="/images/logo.png"
-          alt="Be Aware Everywhere logo"
-        />
+        <img className="homeimage" src="/images/logo.png" alt="Be Aware Everywhere logo" />
       </div>
       <div>
         <GoogleMap />

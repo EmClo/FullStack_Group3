@@ -1,5 +1,8 @@
 import React from "react";
-import "./about.css";
+
+import "../about/about.css";
+import "../safety/safety.css";
+
 
 function About() {
   return (
@@ -18,20 +21,30 @@ function About() {
             necessary information to make safer choices.
           </p>
         </div>
-        <div className="aboutcontent">
-          <h3>Who We Are</h3>
-          <p>
+
+        <div class="aboutcontent">
+        <div className="individualcontainer">
+          <h3 className="aboutheadings">Who We Are</h3>
+          <div className="middle">
+          <p className="text2">
+
             Four women creating an app for women, as part of our Code First
             Girls Fullstack specification - sponsored by BAE systems. Discussion
             of shared experiences and what sort of platform would be useful to
             us, a shared experience of the sense of unease in an unfamiliar
             place or when travelling alone was established.{" "}
           </p>
+          </div>
+          </div>
         </div>
         <div>
-          <div className="aboutcontent">
-            <h3>The Problem</h3>
-            <p>
+
+          <div class="aboutcontent">
+          <div className="individualcontainer">
+            <h3 className="aboutheadings">The Problem</h3>
+            <div className="middle">
+            <p className="text2">
+
               Research led to the discovery that these kinds of poor perceptions
               of personal safety were shared by the public With 27% of women and
               16% of men reporting experiences and feelings of reduced safety
@@ -40,10 +53,16 @@ function About() {
               public having access to information to empower cautious
               decision-making when travelling in unfamiliar areas.
             </p>
+            </div>
+            </div>
           </div>
-          <div className="aboutcontent">
-            <h3>The Solution</h3>
-            <p>
+
+          <div class="aboutcontent">
+          <div className="individualcontainer">
+            <h3 className="aboutheadings">The Solution</h3>
+            <div className="middle">
+            <p className="text2">
+
               Our platform includes location based crime statistics, where we
               hope high crime rates will encourage users to stay alert and take
               alternative routes or transport. We will also inform users of
@@ -53,6 +72,8 @@ function About() {
               other potential users to make more informed decisions relating to
               personal property/potential investments has also been realised.
             </p>
+            </div>
+            </div>
           </div>
         </div>
       </div>
