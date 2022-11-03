@@ -7,11 +7,9 @@ function NavBar() {
   return (
     <nav className="nav">
       <div className="leftSide">
-        <Link to="/">
-          <a>
-            <img src="/images/logo.png" alt="Be Aware Everywhere logo" />
-          </a>
-        </Link>
+        <a>
+          <img src="/images/logo.png" alt="Be Aware Everywhere logo" />
+        </a>
       </div>
       <div className="rightSide">
         <ul id={showLinks ? "hidden" : ""}>
