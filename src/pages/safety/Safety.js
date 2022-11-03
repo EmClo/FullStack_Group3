@@ -1,78 +1,59 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "./safety.css";
+
+import "../safety/safety.css";
+import "../about/about.css";
+
 
 function Safety() {
   return (
     <div className="page">
       <div className="background">
-        <h1>Travel Tips</h1>{" "}
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis ea
-          mollitia molestiae vero, nihil enim soluta quisquam vel laudantium
-          voluptate ducimus eum inventore eos, aliquam ipsa a pariatur sunt
-          perferendis?
-          <br /> Stay together. ... Be aware of your surroundings. ... Guard
-          your drinks. ... Recognize the signs of being drugged. ... Drink
-          responsibly. ... Watch what you post on social media. ... Download a
-          personal safety app. ... Use ridesharing with caution.
-          <br />
-          1. If walking by yourself, get off your cell phone. A lot of people
-          think that being on the phone is safe because the person on the other
-          line can call 911, but that rarely works out. Chatting can distract
-          you; it's better to be aware of your surroundings. That said… 2. If
-          walking by yourself, hold your cell phone and be ready to make an
-          emergency call. Many phones now have a button on the screen to dial
-          911 immediately. Go one step further and preset one of the buttons on
-          your phone to call the emergency number. 3. Look underneath your car
-          before approaching it in a parking garage or lot at night 5. You
-          return to your car and it has a flat tire. Back away. Return to
-          wherever you came from (restaurant, store, etc) and call for help.
-          Once assistance arrives, approach your car. If someone comes up to you
-          (even if they are a woman) and wants to offer help, politely say, "No
-          thank you." If a man, he could be a predator. If a woman, she could be
-          the lurer. 17. When going out with your girlfriends, decide beforehand
-          that you will stick together. Do not let your friend go off alone with
-          a guy. 20. Don't check-in on Foursquare or Facebook when you arrive
-          somewhere. Instead, check in as you leave. This way no one will be
-          able to digitally stalk you and know your every move or when you're
-          not home. Along the same lines, avoid tweeting or Facebooking from
-          vacation, especially if your account is public, as it's a way of
-          letting the world know that your home is unoccupied.
-        </p>
+        <h1 className="tagline">Travel Tips</h1>{" "}
+          <div><p className="abouttext">
+          Travelling alone in an unfamiliar place can be daunting as many people feel unsafe without company. This page includes a number of tips, tricks and travel alternatives which when used can empower the public to change their perceptions of personal safety.
+          Perceptions of personal safety start with you; an awareness and utilisation of tools and information can be both practical and reassuring to help you stay and feel safe.</p>
+            <h5>Hover over the images on the left hand side for more information, and click the images on the right hand side to take you to some useful services.</h5></div>
+          
         <div className="safetytips">
           <div className="imagescontainer">
-            <div className="individualcontainer">
-              <img src="/images/walkalonegood.jpg" className="image" />
-              <div className="middle">
-                <div className="text">Hello</div>
-              </div>
+          <div className="individualcontainer">
+            <img src="/images/walkalonegood.jpg" className="image" />
+            <div className="middle">
+              <div className="text">If you are walking in an area you are not familiar with, pre-plan your route to avoid getting lost. Where possible walk through busy, well-lit areas. Places of business will often have well lit fronts and walkways.</div>
             </div>
-            {/* - individual container end */}
-            <div className="individualcontainer">
-              <img src="/images/walkwithfriends.jpg" className="image" />
-              <div className="middle">
-                <div className="text">Hello</div>
-              </div>
-            </div>
-            {/* - individual container end */}
-            <div className="individualcontainer">
-              <img src="/images/cctvbuilding.jpg" className="image" />
-              <div className="middle">
-                <div className="text">Hello</div>
-              </div>
-            </div>
-            {/* - individual container end */}
-            <div className="individualcontainer">
-              <img src="/images/womanonphonenight.jpg" className="image" />
-              <div className="middle">
-                <div className="text">Hello</div>
-              </div>
-            </div>
-            {/* - individual container end */}
           </div>
-          {/* - images container end */}
-          <div className="travelAlternatives">
+          {/* - individual container end */}
+          <div className="individualcontainer">
+            <img src="/images/cctv.jpg" className="image" />
+            <div className="middle">
+              <div className="text">Always inform someone else of your plans, including your route, final destination and approximate time that you intend to arrive. Many smartphone apps include options to share location, consider using this with trusted friends and family.</div>
+              </div>
+            </div>
+          <div className="individualcontainer">
+            <img src="/images/usingphone.jpg" className="image" />
+            <div className="middle">
+              <div className="text">Always Carry Your Phone with You - keep it charged, it can be your lifeline. If you see something suspicious or if you feel threatened, alert the authorities. However, do not let your phone be a distraction, you should remain observant of your surroundings.</div>
+          </div>
+          {/* - individual container end */}
+          </div>
+          <div className="individualcontainer">
+            <img src="/images/crossingroad.jpg" className="image" />
+            <div className="middle">
+              <div className="text">If you feel like you are being followed, a good test is to cross the street at the next possible junction. If the person does the same, remain calm, identify your options, try to enter a business to ask for help/seek refuge or contact the authorities.</div>
+            </div>
+          </div>
+          {/* - individual container end */}
+          <div className="individualcontainer">
+            <img src="/images/trafficlights.jpg" className="image" />
+            <div className="middle">
+              <div className="text">Most importantly, Trust Your Gut - If you feel safe in your surroundings continue your travel with the above tips in mind. However, If you feel unsafe for any reason, trust your instincts and look for an alternative to walking alone (See right).</div>
+            </div>
+          </div>
+          {/* - individual container end */}
+          </div>
+        </div>
+        <div className="travelAlternatives">
             {/* - individual container end */}
             <div className="individualcontainer">
               <a
@@ -128,10 +109,8 @@ function Safety() {
                 their rreviews
               </p>
             </div>
-            {/* - individual container end */}
-          </div>
-        </div>
-        {/* - satey tips container end */}
+            </div>
+
       </div>
     </div>
   );

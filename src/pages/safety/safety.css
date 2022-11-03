@@ -1,3 +1,99 @@
+h5 {
+    color: #994a47;
+    font-size:small;
+    align-items: flex-start;
+    text-align: left;
+    font-style: italic;
+    font-family: "Optima", sans-serif;
+
+}
+
+.safetytips {
+    width: 100%;
+    display: flex;
+    padding-right: 0%;
+    background-color: #ffb7b1;
+    border: 10px #994a47;
+    border-radius: 45px;
+    box-shadow: 10px 20px 30px #510300;
+    align-items: center;
+  
+    width: 100%;
+    margin: 1% 0% 1% 0%;
+  }
+
+.imagescontainer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 2%;
+    position: relative;
+  }
+  
+.individualcontainer {
+    width: 100%;
+    padding: 2%;
+    position: relative;
+  }
+  
+.image {
+    opacity: 1;
+    display: block;
+    width: 40%;
+    height: auto;
+    margin-top: 2%;
+    transition: 0.5s ease;
+    backface-visibility: hidden;
+  }
+  
+.middle {
+    transition: 0.5s ease;
+    opacity: 0;
+    position: absolute;
+    width: 100%;
+    height: fit-content;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  }
+  
+.individualcontainer:hover .image {
+    opacity: 0.15;
+  }
+  
+.individualcontainer:hover .middle {
+    opacity: 1;
+  }
+  
+.text {
+    color: #510300;
+    font-family: "Optima", sans-serif;
+    text-align: left;
+    width: 40%;
+    font-weight: bolder;
+    font-size: 16px;
+    padding: 16px 32px;
+  }
+  
+.text2 {
+    color: #510300;
+    font-family: "Optima", sans-serif;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 16px;
+    padding: 16px 32px;
+  }
+  
+.travelalternatives {
+    padding: 0%;
+  }
+  
+.companylogo {
+    width: 150px;
+    padding: 0%;
+  }
+=======
 .safetytips {
   width: 100%;
   display: flex;
@@ -67,3 +163,4 @@
   width: 150px;
   padding: 0%;
 }
+
