@@ -1,44 +1,30 @@
 import React from "react";
-import "../pages/data/Data.css";
 import ReactApexChart from "react-apexcharts";
 
 function Graph() {
   const series = [
     {
       name: "Violent Crimes and Sexual Offences",
-      data: [
-        
-        1815,
-        1598,
-        2240,
-        1838,
-        2305,
-        2232,
-        2366,
-        2617,
-        
-      ],
+      data: [1815, 1598, 2240, 1838, 2305, 2232, 2366, 2617],
     },
     {
       name: "Burglary",
-      data: [ 198, 204, 271, 282, 206, 244, 217, 261],
+      data: [198, 204, 271, 282, 206, 244, 217, 261],
     },
     {
       name: "Criminal Damage",
-      data: [ 293, 320, 399, 431, 429, 411, 458, 512],
+      data: [293, 320, 399, 431, 429, 411, 458, 512],
     },
 
     {
       name: "Theft from Person",
-      data: [ 18, 18, 37, 19, 24, 20, 28, 25],
+      data: [18, 18, 37, 19, 24, 20, 28, 25],
     },
 
     {
       name: "Anti-social Behaviour",
-      data: [ 803, 722, 602, 704, 788, 830, 657, 1009],
+      data: [803, 722, 602, 704, 788, 830, 657, 1009],
     },
-
-
   ];
   const options = {
     dataLabels: {
@@ -50,8 +36,6 @@ function Graph() {
     xaxis: {
       type: "datetime",
       categories: [
-      
-       
         "1/30/22",
         "2/30/22",
         "3/30/22",
@@ -60,11 +44,9 @@ function Graph() {
         "6/30/22",
         "7/30/22",
         "8/30/22",
-        
-        
       ],
     },
-    
+
     tooltip: {
       x: {
         format: "dd/MM/yy",
@@ -77,6 +59,8 @@ function Graph() {
       style={{
         backgroundColor: "white",
         textAlign: "center",
+        padding: "5%",
+        color: "#510300",
       }}
     >
       <br />
@@ -94,6 +78,9 @@ function Graph() {
         series={series}
         type="bar"
         height={350}
+        style={{
+          paddingTop: "5%",
+        }}
       />
     </div>
   );
