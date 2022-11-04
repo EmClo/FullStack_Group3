@@ -9,7 +9,6 @@ function Data() {
         <Graph />
       </div>
     </div>
-    
   );
 }
 
