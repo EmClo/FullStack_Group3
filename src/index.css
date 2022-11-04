@@ -11,6 +11,7 @@ body {
   font-family: "Optima", sans-serif;
 }
 
+
 .page {
   margin: auto;
   padding: 6%;
@@ -179,6 +180,18 @@ body {
   z-index: -2;
   font-family: "Optima", sans-serif;
   font-weight: bolder;
+}
+
+.text2 {
+    color: #510300;
+    font-family: "Optima", sans-serif;
+    width: 100%;
+    text-align: justify;
+    font-size: 100%;
+    padding: 5%;
+    padding-top: 25%;
+
+  
 }
 
 @media only screen and (max-width: 600px) {

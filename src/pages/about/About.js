@@ -53,7 +53,6 @@ function About() {
               </div>
             </div>
           </div>
-
           <div class="aboutcontent">
             <div className="individualcontainer">
               <h3 className="aboutheadings">The Solution</h3>

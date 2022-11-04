@@ -90,3 +90,93 @@ h5 {
 }
 
 /* TEXT MEDIA QUERIES NEEDED */
+h5 {
+  color: #994a47;
+  font-size: small;
+  align-items: flex-start;
+  text-align: left;
+  font-style: italic;
+  font-family: "Optima", sans-serif;
+}
+
+.safetytips {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 5fr 5fr;
+  background-color: #ffb7b1;
+  border: 10px #994a47;
+  border-radius: 45px;
+  box-shadow: 10px 20px 30px #510300;
+  width: 100%;
+  margin: 1% 0% 1% 0%;
+  gap: 0%;
+}
+
+.imagescontainer {
+  width: 200%;
+  padding: 3%;
+  margin-top: 5%;
+}
+
+.travelalternatives {
+  padding: 3%;
+  margin-top: 7%;
+  margin-right: 2%;
+}
+
+.individualcontainer {
+  width: 100%;
+  padding: 2%;
+  position: relative;
+}
+
+.individualcontainer p {
+  width: 70%;
+  margin: 1% 15% 20% 15%;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 50%;
+  height: auto;
+  transition: 0.5s ease;
+  backface-visibility: hidden;
+}
+
+.companylogo {
+  width: 60%;
+  height: auto;
+  margin: 0 20%;
+}
+
+.middle {
+  transition: 0.5s ease;
+  opacity: 0;
+  position: absolute;
+  width: 100%;
+  height: fit-content;
+  justify-content: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.individualcontainer:hover .image {
+  opacity: 0.15;
+}
+
+.individualcontainer:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  color: #510300;
+  font-family: "Optima", sans-serif;
+
+  width: 50%;
+  font-size: 16px;
+  padding: 5%;
+
+}
