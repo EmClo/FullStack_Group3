@@ -1,6 +1,7 @@
 import React from "react";
 import { render, screen } from "@testing-library/react";
 import NavBar from "./components/navbar/NavBar";
+import { BrowserRouter } from "react-router-dom";
 
 // setupTests.js
 
@@ -9,6 +10,7 @@ import NavBar from "./components/navbar/NavBar";
 // GoogleMap.test.jas (map rendering with crime info marker test)
 
 // NavBar.test.js
+
 
 // testing the about link
 test("render about link", () => {

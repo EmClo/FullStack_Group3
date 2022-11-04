@@ -1,7 +1,3 @@
-import React from "react";
-import "../safety/safety.css";
-import "../about/about.css";
-
 function Safety() {
   return (
     <div className="page">
@@ -107,7 +103,6 @@ function Safety() {
             </div>
             {/* - individual container end */}
           </div>
-
           <div className="travelalternatives">
             <div className="individualcontainer">
               <a
@@ -123,9 +118,12 @@ function Safety() {
                 />
               </a>
               <p className="text">
-                Plan your journey from door to door across Great Britain, see
-                the different ways you could travel, and view your journey on a
-                map
+                A partnership of transport companies, local authorities and
+                passenger groups bringing you routes and times for all travel in
+                Great Britain, using the most up to date information from around
+                the UK for all transport companies. plan your journey from door
+                to door with various travel methods, and view your journey on a
+                map.
               </p>
             </div>
             {/* - individual container end */}
@@ -142,10 +140,16 @@ function Safety() {
                   title="Uber"
                 />
               </a>
-              <p className="text">Uber...</p>
+              <p className="text">
+                An independent taxi company with a Door-to-Door Safety Standard
+                to help you feel safe every time you ride. Plan your trip by
+                requesting an Uber or scheduling for later, and a nearby driver
+                will help you get there reliably. you'll get real-time updates
+                on the drivers location as well as information about them, such
+                as reviews from previous customers
+              </p>
             </div>
             {/* - individual container end */}
-
             <div className="individualcontainer">
               <a
                 href="https://www.thomsonlocal.com/taxis"
@@ -160,18 +164,19 @@ function Safety() {
                 />
               </a>
               <p className="text">
-                The ultimate A-Z taxi guide. Search local taxi companies and
-                their rreviews
+                The ultimate A-Z taxi guide with reviews. Find a local taxi
+                company to book direct to your location, at a time of your
+                choosing, by placing a search for the area you're in. You are in
+                full control of the route and the taxi will take you directly to
+                your final destination
               </p>
             </div>
             {/* - individual container end */}
           </div>
-
           {/* - safety tips container end */}
         </div>
       </div>
     </div>
   );
 }
-
 export default Safety;
