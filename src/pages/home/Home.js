@@ -6,10 +6,15 @@ function Home() {
   return (
     <div className="homepage">
       <div className="logo">
-        <img className="homeimage" src="/images/logo.png" alt="Be Aware Everywhere logo" />
+        <img
+          className="homeimage"
+          src="/images/logo.png"
+          alt="Be Aware Everywhere logo"
+        />
       </div>
       <div>
         <GoogleMap />
+
         {/* <div id="locationSearch">
         <form id="form" role="location search">
             <input type="search" id="locationsearch" name="location search" placeholder="Search a location here">
