@@ -1,6 +1,7 @@
 import React from "react";
 import { render, screen} from '@testing-library/react';
 import NavBar from "./components/navbar/NavBar";
+import { BrowserRouter } from "react-router-dom";
 
 // setupTests.js
 
@@ -11,10 +12,16 @@ import NavBar from "./components/navbar/NavBar";
 
 // NavBar.test.js 
 
+// testing the NavBar component 
+
 // testing the about link 
 
 test('should render about link', () => { 
-  render(<NavBar />)
+  render(
+    <BrowserRouter>
+      <NavBar />
+    </BrowserRouter>
+  )
   expect(screen.getByText(/about/i)).toBeInTheDocument();
  })
 
