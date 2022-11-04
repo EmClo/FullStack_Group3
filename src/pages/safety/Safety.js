@@ -12,7 +12,7 @@ function Safety() {
           and information can be both practical and reassuring to help you stay
           and feel safe.
         </p>
-        <h5>
+        <h5 className="hovertext">
           Hover over the images on the left hand side for more information, and
           click the images on the right hand side to take you to some useful
           services.

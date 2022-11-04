@@ -199,20 +199,27 @@ body {
     font-size: x-small;
     padding-top: 10%;
   }
-  .aboutcontent, .individualcontainer {
+  .aboutcontent, .travelalternatives, .individualcontainer {
     font-size: x-small;
-    padding-bottom: 20%;
+    padding-bottom: 30%;
   }
 
   .placessearchbar, .mapbackground {
     width: 90%;
   }
 
-  .middle, .text2 {
+  .middle {
     font-size: x-small;
     font-weight: lighter;
     text-align: justify;
     padding-top: 10%;
+  }
+
+  .text2, .text {
+    font-size: 90%;
+    font-weight: lighter;
+    text-align: justify;
+    padding-top: 30%;
   }
 
   .background {
@@ -247,7 +254,7 @@ body {
     padding-top: 10%;
   }
 
-  .aboutcontent, .individualcontainer {
+  .aboutcontent, .travelalternatives, .individualcontainer {
     font-size: small;
     padding-bottom: 30%;
   }
@@ -256,11 +263,16 @@ body {
     width: 90%;
   }
 
+  .text {
+    font-size: x-small;
+    padding: 0;
+  }
+
   .middle, .text2 {
     font-size: small;
     font-weight: light;
     text-align: justify;
-    padding-top: 20%;
+    padding-top: 30%;
   }
 
   .background {
@@ -295,13 +307,18 @@ body {
     padding-top: 10%;
   }
 
-  .aboutcontent, .individualcontainer {
+  .aboutcontent, .travelalternatives, .individualcontainer {
     font-size: medium;
     padding-bottom: 40%;
   }
 
   .placessearchbar, .mapbackground {
     width: 90%;
+  }
+
+  .text {
+    font-size: small;
+    padding: 0;
   }
 
   .middle, .text2 {
@@ -343,11 +360,59 @@ body {
     padding-top: 10%;
   }
 
-  .aboutcontent, .individualcontainer {
+  .aboutcontent, .travelalternatives, .individualcontainer {
     font-size: large;
     padding-bottom: 50%;
   }
 
+  .placessearchbar, .mapbackground {
+    width: 90%;
+  }
+
+  .middle, .text2 {
+    font-size: large;
+    font-weight: light;
+    text-align: justify;
+    padding-top: 40%;
+  }
+
+  .text {
+    font-size: small;
+    padding-left: 4%;
+  }
+
+  .background {
+    padding-bottom: 10%;
+  }
+
+  .pagebutton, .messagebutton {
+    width: 50%;
+    font-size: large;
+    display: block;
+    flex-direction: column;
+    padding-top: 20%;
+  }
+
+  .inputboxes, .inputboxesmessage, .inputtextarea, .search {
+    width: 100%;
+    font-size: large;
+    display: block;
+    flex-direction: column;
+  }
+
+}
+
+@media only screen and (max-width: 1151px) and (min-width: 951px) {
+  
+
+  .individualcontainer {
+    padding-bottom: 50%;
+  }
+
+  .aboutcontent {
+    height: 60%;
+    width: 100%;
+  }
   .placessearchbar, .mapbackground {
     width: 90%;
   }
