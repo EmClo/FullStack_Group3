@@ -12,10 +12,11 @@ import NavBar from "./components/navbar/NavBar";
 // NavBar.test.js 
 
 // testing the about link 
-test('render about link', () => {
-  render(<NavBar/>)
-  expect(screen.getByText(/about/)).toBeInTheDocument();
-})
+
+test('should render about link', () => { 
+  render(<NavBar />)
+  expect(screen.getByText(/about/i)).toBeInTheDocument();
+ })
 
 // testing the data link 
 // testing the home link 
