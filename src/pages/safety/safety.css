@@ -70,9 +70,9 @@ h5 {
     color: #510300;
     font-family: "Optima", sans-serif;
     text-align: left;
-    width: 40%;
+    width: 75%;
     font-weight: bolder;
-    font-size: 16px;
+    font-size: 90%;
     padding: 16px 32px;
   }
   
@@ -124,7 +124,7 @@ h5 {
 .image {
   opacity: 1;
   display: block;
-  width: 40%;
+  width: 80%;
   height: auto;
   margin-top: 2%;
   transition: 0.5s ease;
@@ -149,19 +149,27 @@ h5 {
   opacity: 1;
 }
 
-.text {
-  color: #510300;
-  font-size: 90%;
-  text-align: left;
-  padding: 16px 32px;
+.traveltext {
+  color: #994a47;
+  font-family: "Optima", sans-serif;
+  text-align: justify;
+  line-height: 150%;
+  width: 100%;
+  padding-right: 10%;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 80%;
 }
 
 .travelalternatives {
   padding: 0%;
 }
 
+
 .companylogo {
-  width: 150px;
+  width: 80%;
   padding: 0%;
+  margin-top: 10%;
+  margin-bottom: 15%;
 }
 

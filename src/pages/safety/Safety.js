@@ -2,7 +2,6 @@ import React from "react";
 import "../safety/safety.css";
 import "../about/about.css";
 
-
 function Safety() {
   return (
     <div className="page">
@@ -50,26 +49,27 @@ function Safety() {
           </div>
           {/* - individual container end */}
           </div>
-        
+        <div className="imagescontainer">
         <div className="travelAlternatives">
             {/* - individual container end */}
             <div className="individualcontainer">
               <a
-                href="https://https://www.traveline.info/.com"
+                href="https://www.traveline.info/"
                 target="_blank"
                 rel="noreferrer"
               >
-                <img
+                <img 
                   src="images/travelinelogo.png"
                   alt="websitename"
                   className="companylogo"
                   title="Traveline"
                 />
               </a>
-              <p style={{ width: "50%", padding: "0%" }}>
-                Plan your journey from door to door across Great Britain, see
-                the different ways you could travel, and view your journey on a
-                map
+              <p className="traveltext">
+              A partnership of transport companies, local authorities and passenger groups 
+              bringing you routes and times for all travel in Great Britain, 
+              using the most up to date information from around the UK for all transport companies. 
+              plan your journey from door to door with various travel methods, and view your journey on a map.
               </p>
             </div>
             <div className="individualcontainer">
@@ -85,7 +85,11 @@ function Safety() {
                   title="Uber"
                 />
               </a>
-              <p style={{ width: "50%", padding: "0%" }}>Uber...</p>
+              <p className="traveltext">
+                An independent taxi company with a Door-to-Door Safety Standard to help you feel safe every time you ride.
+                Plan your trip by requesting an Uber or scheduling for later, and a nearby driver will help you get there reliably. 
+                you'll get real-time updates on the drivers location as well as information about them, 
+                such as reviews from previous customers.</p>
             </div>
 
             {/* - individual container end */}
@@ -102,10 +106,12 @@ function Safety() {
                   title="Thomson Local"
                 />
               </a>
-              <p style={{ width: "50%", padding: "0%" }}>
-                The ultimate A-Z taxi guide. Search local taxi companies and
-                their rreviews
+              <p className="traveltext">
+                The ultimate A-Z taxi guide with reviews. Find a local taxi company to book direct to your location, at a time of your choosing, by
+                placing a search for the area you're in. You are in full control of the route and the taxi will 
+                take you directly to your final destination.
               </p>
+              </div>
             </div>
             </div>
             </div>

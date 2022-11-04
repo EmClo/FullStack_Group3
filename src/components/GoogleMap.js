@@ -56,7 +56,7 @@ export function MapContainer(props) {
             onSelect={handleSelect}
           />
         </div>
-        <div class="crimemap">
+        <div className="crimemap">
           <Map
             google={props.google}
             style={{
