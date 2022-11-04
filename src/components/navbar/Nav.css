@@ -12,6 +12,7 @@
 .hamburgerbutton {
   background-color: #fff6f5;
   border-color: #ffb7b1;
+  border-radius: 20%;
 }
 
 .nav {
