@@ -175,3 +175,195 @@ body {
 
 }
 
+.Data {
+  text-align: center;
+  z-index: -2;
+  font-family: "Optima", sans-serif;
+  font-weight: bolder;
+}
+
+@media only screen and (max-width: 600px) {
+  .tagline, .abouttext, .reporttext {
+    font-size: x-small;
+    padding-top: 10%;
+  }
+  .aboutcontent, .individualcontainer {
+    font-size: x-small;
+    padding-bottom: 20%;
+  }
+
+  .placessearchbar, .mapbackground {
+    width: 90%;
+  }
+
+  .middle, .text2 {
+    font-size: x-small;
+    font-weight: lighter;
+    text-align: justify;
+    padding-top: 10%;
+  }
+
+  .background {
+    padding-bottom: 10%;
+  }
+
+  .pagebutton, .messagebutton {
+    width: 50%;
+    font-size: xx-small;
+    display: block;
+    flex-direction: column;
+    padding-top: 20%;
+  }
+
+  .inputboxes, .inputboxesmessage, .inputtextarea, .search {
+    width: 100%;
+    font-size: xx-small;
+    display: block;
+    flex-direction: column;
+  }
+
+}
+
+@media only screen and (max-width: 670px) and (min-width: 601px) {
+  .abouttext, .reporttext {
+    font-size: small;
+    padding-top: 10%;
+  }
+
+  .tagline {
+    font-size: large;
+    padding-top: 10%;
+  }
+
+  .aboutcontent, .individualcontainer {
+    font-size: small;
+    padding-bottom: 30%;
+  }
+
+  .placessearchbar, .mapbackground {
+    width: 90%;
+  }
+
+  .middle, .text2 {
+    font-size: small;
+    font-weight: light;
+    text-align: justify;
+    padding-top: 20%;
+  }
+
+  .background {
+    padding-bottom: 10%;
+  }
+
+  .pagebutton, .messagebutton {
+    width: 50%;
+    font-size: small;
+    display: block;
+    flex-direction: column;
+    padding-top: 20%;
+  }
+
+  .inputboxes, .inputboxesmessage, .inputtextarea, .search {
+    width: 100%;
+    font-size: small;
+    display: block;
+    flex-direction: column;
+  }
+
+}
+
+@media only screen and (max-width: 750px) and (min-width: 671px) {
+  .abouttext, .reporttext {
+    font-size: medium;
+    padding-top: 10%;
+  }
+
+  .tagline {
+    font-size: x-large;
+    padding-top: 10%;
+  }
+
+  .aboutcontent, .individualcontainer {
+    font-size: medium;
+    padding-bottom: 40%;
+  }
+
+  .placessearchbar, .mapbackground {
+    width: 90%;
+  }
+
+  .middle, .text2 {
+    font-size: medium;
+    font-weight: light;
+    text-align: justify;
+    padding-top: 30%;
+  }
+
+  .background {
+    padding-bottom: 10%;
+  }
+
+  .pagebutton, .messagebutton {
+    width: 50%;
+    font-size: medium;
+    display: block;
+    flex-direction: column;
+    padding-top: 20%;
+  }
+
+  .inputboxes, .inputboxesmessage, .inputtextarea, .search {
+    width: 100%;
+    font-size: medium;
+    display: block;
+    flex-direction: column;
+  }
+
+}
+
+@media only screen and (max-width: 950px) and (min-width: 751px) {
+  .abouttext, .reporttext {
+    font-size: large;
+    padding-top: 10%;
+  }
+
+  .tagline {
+    font-size: xx-large;
+    padding-top: 10%;
+  }
+
+  .aboutcontent, .individualcontainer {
+    font-size: large;
+    padding-bottom: 50%;
+  }
+
+  .placessearchbar, .mapbackground {
+    width: 90%;
+  }
+
+  .middle, .text2 {
+    font-size: large;
+    font-weight: light;
+    text-align: justify;
+    padding-top: 40%;
+  }
+
+  .background {
+    padding-bottom: 10%;
+  }
+
+  .pagebutton, .messagebutton {
+    width: 50%;
+    font-size: large;
+    display: block;
+    flex-direction: column;
+    padding-top: 20%;
+  }
+
+  .inputboxes, .inputboxesmessage, .inputtextarea, .search {
+    width: 100%;
+    font-size: large;
+    display: block;
+    flex-direction: column;
+  }
+
+}
