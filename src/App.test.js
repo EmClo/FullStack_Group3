@@ -12,7 +12,16 @@ import { BrowserRouter } from "react-router-dom";
 
 // NavBar.test.js 
 
-// testing the NavBar component 
+// testing that NavBar component renders 
+
+it('should render NavBar component', () => { 
+  render(
+    <BrowserRouter>
+      <NavBar />
+    </BrowserRouter>
+  )
+ })
+
 
 // testing the about link 
 
