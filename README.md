@@ -6,6 +6,7 @@
 # npm install emailjs-com
 # npm install react-leaflet
 # npm install react-leaflet-heatmap-layer
+# npm install @testing-library/react jest
 
 
 # Getting Started with Create React App
