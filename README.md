@@ -1,4 +1,5 @@
 # Additional modules needed for the app to run -
+### npm installs may need --force  
 ## npm install axios
 ## npm install react-apexcharts
 ## npm install google-maps-react
