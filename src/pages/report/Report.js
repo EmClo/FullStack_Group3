@@ -95,7 +95,7 @@ const ReportCrime = () => {
               />
             </div>
           </div>
-          <div className="pagebutton">
+          <div data-testid="reportCrimeButtonTest" className="pagebutton">
             <button className="messagebutton" type="submit">
               Send Message
             </button>
