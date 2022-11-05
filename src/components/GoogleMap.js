@@ -74,7 +74,7 @@ export function MapContainer(props) {
           >
             {/* write mapping function for response from get request to render markers --
             currently returns one marker for the location as places autocomplete only sends one latLng*/}
-            {/* console.log(crimesFound) */}
+
             {crimesFound.map((crimeData) => {
               return (
                 <Marker
