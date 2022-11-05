@@ -1,3 +1,4 @@
+## Additional modules needed for the app to run -
 # npm install axios
 # npm install react-apexcharts
 # npm install google-maps-react
@@ -7,6 +8,9 @@
 # npm install react-leaflet
 # npm install react-leaflet-heatmap-layer
 # npm install @testing-library/react jest
+# npm install sws
+# npm install react select
+
 
 
 # Getting Started with Create React App
