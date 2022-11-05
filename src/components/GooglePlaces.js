@@ -9,7 +9,6 @@ function GooglePlaces({ address, onSelect, onChange }) {
             class="inputtextarea"
             style={{
               color: "#510300",
-
               fontFamily: "Optima sans-serif",
             }}
             {...getInputProps({

@@ -1,5 +1,6 @@
 import React from "react";
 import Graph from "../../components/Graph";
+import PoliceForces from "../../components/GraphDropDown";
 
 function Data() {
   return (
@@ -21,10 +22,10 @@ function Data() {
             and click the images on the right hand side to take you to some
             useful services.
           </h5>
+          <div className="wrapper" style={{ paddingTop: "10%" }}>
+            <PoliceForces />
+          </div>
         </div>
-      </div>
-      <div className="wrapper" style={{ paddingTop: "10%" }}>
-        <Graph />
       </div>
     </>
   );
