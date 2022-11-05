@@ -31,12 +31,15 @@ function NavBar() {
             <CustomLink to="/report">Report a Crime</CustomLink>
           </li>
         </ul>
-        <button className="hamburgerbutton" onClick={() => setShowLinks(!showLinks)}>
-        <div>
-        <div className="hamburger"></div>
-        <div className="hamburger"></div>
-        <div className="hamburger"></div>
-        </div>
+        <button
+          className="hamburgerbutton"
+          onClick={() => setShowLinks(!showLinks)}
+        >
+          <div>
+            <div className="hamburger"></div>
+            <div className="hamburger"></div>
+            <div className="hamburger"></div>
+          </div>
         </button>
       </div>
     </nav>
