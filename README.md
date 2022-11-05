@@ -10,7 +10,7 @@
 ## npm install react-leaflet-heatmap-layer
 ## npm install @testing-library/react jest
 ## npm install sws
-## npm install react select
+## npm install react-select
 
 
 
