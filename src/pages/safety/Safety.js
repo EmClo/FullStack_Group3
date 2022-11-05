@@ -106,7 +106,7 @@ function Safety() {
           <div className="travelalternatives">
             <div className="individualcontainer">
               <a
-                href="https://https://www.traveline.info/.com"
+                href="https://www.traveline.info/"
                 target="_blank"
                 rel="noreferrer"
               >
