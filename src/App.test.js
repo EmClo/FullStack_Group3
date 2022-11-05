@@ -5,9 +5,8 @@ import userEvent from "@testing-library/user-event";
 import NavBar from "./components/navbar/NavBar";
 
 
+
 // GooglePlaces.test.js (search bar test) - test that typing in the search bar inputs the correct text in the text field 
-
-
 // GoogleMap.test.js (map rendering with crime info marker test - needs to be able to make api calls)
 // Api.test.js (testing mock api calls)
 
@@ -88,3 +87,4 @@ test('should render the safety path', () => {
 // ReportCrime.test.js test that the sendMail function works
 
 // ReportCrime.test.js test that invalid email address aren't able to make use of the sendMail function (unhappy path testing)
+
