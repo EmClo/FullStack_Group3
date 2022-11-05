@@ -1,7 +1,3 @@
-import React from "react";
-import "../safety/safety.css";
-import "../about/about.css";
-
 function Safety() {
   return (
     <div className="page">
@@ -16,7 +12,7 @@ function Safety() {
           and information can be both practical and reassuring to help you stay
           and feel safe.
         </p>
-        <h5>
+        <h5 className="hovertext">
           Hover over the images on the left hand side for more information, and
           click the images on the right hand side to take you to some useful
           services.
@@ -107,7 +103,6 @@ function Safety() {
             </div>
             {/* - individual container end */}
           </div>
-
           <div className="travelalternatives">
             <div className="individualcontainer">
               <a
@@ -155,7 +150,6 @@ function Safety() {
               </p>
             </div>
             {/* - individual container end */}
-
             <div className="individualcontainer">
               <a
                 href="https://www.thomsonlocal.com/taxis"
@@ -179,12 +173,10 @@ function Safety() {
             </div>
             {/* - individual container end */}
           </div>
-
           {/* - safety tips container end */}
         </div>
       </div>
     </div>
   );
 }
-
 export default Safety;

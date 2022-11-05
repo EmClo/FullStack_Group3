@@ -31,7 +31,13 @@ function NavBar() {
             <CustomLink to="/report">Report a Crime</CustomLink>
           </li>
         </ul>
-        <button onClick={() => setShowLinks(!showLinks)}>Open</button>
+        <button className="hamburgerbutton" onClick={() => setShowLinks(!showLinks)}>
+        <div>
+        <div className="hamburger"></div>
+        <div className="hamburger"></div>
+        <div className="hamburger"></div>
+        </div>
+        </button>
       </div>
     </nav>
   );

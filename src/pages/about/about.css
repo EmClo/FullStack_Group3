@@ -4,6 +4,7 @@ p {
   font-weight: lighter;
   padding-top: 1%;
   padding-bottom: 2%;
+  text-align: left;
 }
 
 p span {
@@ -30,8 +31,13 @@ p span {
   backface-visibility: hidden;
 }
 
+.individualcontainer {
+  padding-bottom: 10%;
+}
+
 .individualcontainer:hover .aboutheadings {
   opacity: 0.15;
+  margin-top: 10%;
 }
 
 .aboutcontent {
@@ -42,7 +48,7 @@ p span {
   align-items: center;
   padding: 2%;
   width: 95%;
-  margin-top: 4%;
+  margin-top: 8%;
 }
 
 .abouttext {
