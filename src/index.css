@@ -204,6 +204,15 @@ body {
     padding-bottom: 30%;
   }
 
+  .aboutcontent:hover {
+    padding-top: 40%;
+    margin-bottom: 10%;
+  }
+
+  .individualcontainer:hover {
+    margin-bottom: 10%;
+  }
+
   .placessearchbar, .mapbackground {
     width: 90%;
   }
@@ -421,7 +430,7 @@ body {
     font-size: large;
     font-weight: light;
     text-align: justify;
-    padding-top: 40%;
+    padding-top: 20%;
   }
 
   .background {
