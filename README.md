@@ -1,15 +1,15 @@
-## Additional modules needed for the app to run -
-# npm install axios
-# npm install react-apexcharts
-# npm install google-maps-react
-# npm install react-router-dom
-# npm install react-places-autocomplete
-# npm install emailjs-com
-# npm install react-leaflet
-# npm install react-leaflet-heatmap-layer
-# npm install @testing-library/react jest
-# npm install sws
-# npm install react select
+# Additional modules needed for the app to run -
+## npm install axios
+## npm install react-apexcharts
+## npm install google-maps-react
+## npm install react-router-dom
+## npm install react-places-autocomplete
+## npm install emailjs-com
+## npm install react-leaflet
+## npm install react-leaflet-heatmap-layer
+## npm install @testing-library/react jest
+## npm install sws
+## npm install react select
 
 
 
