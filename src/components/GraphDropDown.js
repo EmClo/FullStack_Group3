@@ -3,6 +3,10 @@ import { useDeferredValue } from "react";
 import Select from "react-select";
 import Graph from "./Graph";
 
+// Drop down selector box that would ideally be used to display graphs for a
+// specific area but the on select provided too difficuly so currently used
+// as a decoration to display how we would like the app to look
+
 function PoliceForces() {
   var policeforcelist = [
     { value: 1, label: "Avon and Somerset" },
@@ -91,6 +95,9 @@ function PoliceForces() {
 
     { value: 43, label: "Northern Ireland PSNI" },
   ];
+
+  // Reserching how to render the map -- proved to
+  // be too confusing and ran out of time to ascertain how to display graoh on selection
   //   const [value, setValue] = useState("selectForce");
   //   const [graphContentVisible, setgraphContentVisible] = useState(false);
   //   useEffect(() => {
@@ -113,12 +120,12 @@ function PoliceForces() {
   //   };
 
   return (
-    <div>
-      <Select options={policeforcelist} />
-      {/* {graphContentVisible && <selectForce />} */}
-      <div className="wrapper" style={{ paddingTop: "10%" }}>
-        <Graph />
+    <div className="Graph">
+      <div className="graphSelector">
+        <Select options={policeforcelist} />
+        {/* {graphContentVisible && <selectForce />} */}
       </div>
+      <Graph />
     </div>
   );
 }

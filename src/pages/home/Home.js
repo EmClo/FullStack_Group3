@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import GoogleMap from "../../components/GoogleMap";
-import styles from "./home.module.css";
 
 function Home() {
   return (

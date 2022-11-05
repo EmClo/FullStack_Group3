@@ -1,7 +1,11 @@
 import React from "react";
 import { MapContainer as LeafletMap, TileLayer } from "react-leaflet";
 import HeatmapLayer from "react-leaflet-heatmap-layer";
+import { BrowserRouter } from "react-router-dom";
 import { geojson } from "./mapdata";
+
+// The heat map has not been included as it will not display in the app,
+// unable to ascertain what is missing so a marker map is used instead
 
 class MapContainer extends React.Component {
   constructor() {

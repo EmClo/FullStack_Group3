@@ -1,8 +1,5 @@
 import React from "react";
 
-import "../about/about.css";
-import "../safety/safety.css";
-
 function About() {
   return (
     <div className="page">
