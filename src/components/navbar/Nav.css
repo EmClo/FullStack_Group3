@@ -2,6 +2,19 @@
   box-sizing: border-box;
 }
 
+.hamburger {
+  width: 35px;
+  height: 5px;
+  background-color: #da706c;
+  margin: 6px 0;
+}
+
+.hamburgerbutton {
+  background-color: #fff6f5;
+  border-color: #ffb7b1;
+  border-radius: 20%;
+}
+
 .nav {
   background-color: #fff6f5;
   color: #510300;

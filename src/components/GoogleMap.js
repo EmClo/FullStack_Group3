@@ -56,7 +56,7 @@ export function MapContainer(props) {
             onSelect={handleSelect}
           />
         </div>
-        <div class="crimemap">
+        <div className="crimemap">
           <Map
             google={props.google}
             style={{
@@ -74,6 +74,7 @@ export function MapContainer(props) {
           >
             {/* write mapping function for response from get request to render markers --
             currently returns one marker for the location as places autocomplete only sends one latLng*/}
+
             {crimesFound.map((crimeData) => {
               return (
                 <Marker

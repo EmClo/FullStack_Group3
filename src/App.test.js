@@ -11,6 +11,7 @@ import ReportCrime from "./pages/report/Report";
 import { sendForm } from "emailjs-com";
 
 
+
 // GoogleMap.test.js (map rendering with crime info marker test - needs to be able to show the map and make api calls to crime data)
 
 // Api.test.js (testing mock api calls - to the police crime api)
@@ -36,6 +37,7 @@ import { sendForm } from "emailjs-com";
 //   userEvent.type(inputBox, 'Manchester'); 
 //   expect(inputBox).toHaveValue('Manchester');
 //  })
+
 
 
 // NavBar.test.js *works*
@@ -122,3 +124,4 @@ test('should render the safety path', () => {
 //  })
 
 // ReportCrime.test.js test that invalid email address aren't able to make use of the sendMail function (unhappy path testing)
+
