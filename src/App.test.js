@@ -3,6 +3,7 @@ import { render, screen } from "@testing-library/react";
 import { BrowserRouter } from "react-router-dom";
 import userEvent from "@testing-library/user-event";
 import "@testing-library/jest-dom";
+
 // import axiosMock from "axios";
 import NavBar from "./components/navbar/NavBar";
 import GooglePlaces from "./components/GooglePlaces";
@@ -74,6 +75,7 @@ test("should render the data path", () => {
 });
 
 // testing the home link (testing that clicking the about link will render the home path) *works*
+
 test("should render the home path", () => {
   render(
     <BrowserRouter>
@@ -86,6 +88,7 @@ test("should render the home path", () => {
     "Please enter your location to view the crime in your area below";
   expect(pageText).not.toBeNull();
 });
+
 
 // testing the report link (testing that clicking the report link will render the report path) *works*
 
@@ -124,6 +127,7 @@ test("should render the safety path", () => {
 //   );
 //   const button = screen.getByTestId('reportCrimeButtonTest');
 //   userEvent.click(button);
+
 //   expect(sendForm).toHaveBeenCalled();
 //  })
 

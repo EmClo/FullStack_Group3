@@ -5,6 +5,7 @@ function GooglePlaces({ address, onSelect, onChange }) {
     <PlacesAutocomplete value={address} onChange={onChange} onSelect={onSelect}>
       {({ getInputProps, suggestions, getSuggestionItemProps, loading }) => (
         <div>
+          <div data-testid="searchBarTesting">
           <input
             className="inputtextarea"
             style={{
@@ -17,6 +18,7 @@ function GooglePlaces({ address, onSelect, onChange }) {
               className: "inputtextarea",
             })}
           />
+          </div>
           <div className="autocomplete-dropdown-container">
             {loading && <div>Loading...</div>}
             {suggestions.map((suggestion) => {
